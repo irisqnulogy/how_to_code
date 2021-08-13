@@ -1,5 +1,5 @@
 while true
-	print "> "
+	print ">> "
 	input = gets
 	result = eval(input)
 	print "=>"
