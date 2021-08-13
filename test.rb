@@ -1,8 +1,8 @@
 while true
-	print ">> "
+	print "Enter a line of Ruby to evaluate > "
 	input = gets
 	result = eval(input)
-	print "=>"
+	print "  result > "
 	puts(result)
 	puts ""
 end 
